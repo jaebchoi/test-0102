@@ -1,6 +1,6 @@
 dependencies:
-- name: spark-infrastructure
-  repository: file://apps/spark-infrastructure
+- name: aissemble-hive-metastore-service-chart
+  repository: oci://ghcr.io/jaebchoi
   version: 1.11.0-SNAPSHOT
-digest: sha256:382dac1477d021dd9ebe361b6e1fa757d9e67b50d7e85fa4220ccf6c104b0b12
-generated: "2024-12-23T15:31:02.931397-05:00"
+digest: sha256:1369ab97d8efd8baa3f287751d710231bb472ec48a3488712931be715e8ec834
+generated: "2024-12-23T15:48:32.646419-05:00"
