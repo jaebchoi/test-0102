@@ -6,6 +6,13 @@ metadata:
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
+  {{ if eq .Values.configStore "enabled"}}
+  ignoreDifferences:
+    - group: ""
+      kind: ConfigMap
+      managedFieldsManagers:
+        - argocd-controller
+  {{ end }}
   destination:
     namespace: test-0102
     server: {{ .Values.spec.destination.server }}
