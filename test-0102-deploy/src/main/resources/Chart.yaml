@@ -3,7 +3,7 @@ name: test-0102
 version: 0.1.0
 appVersion: "1.0.0"
 dependencies:
-  - name: aissemble-hive-metastore-service-chart
+  - name: spark-infrastructure
     version: 1.11.0-SNAPSHOT
     repository: file://apps/spark-infrastructure
     import-values:
