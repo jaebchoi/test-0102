@@ -7,4 +7,5 @@ dependencies:
     version: 1.11.0-SNAPSHOT
     repository: oci://ghcr.io/jaebchoi
     import-values:
-      - configStore
+      - child: configStore
+        parent: configStore
