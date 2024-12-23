@@ -11,8 +11,7 @@ spec:
       - CreateNamespace=true
       - ApplyOutOfSyncOnly=true
     automated: {}
-configStore: disabled
-
+    
 global:
   imagePullPolicy: Always
   dockerRepo: ghcr.io/
